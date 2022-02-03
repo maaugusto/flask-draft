@@ -1,0 +1,5 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Hi, <a href="{{ url_for('main.user', name=current_user.name) }}">{{ current_user.name }}!</a></h1>
+{% endblock %}

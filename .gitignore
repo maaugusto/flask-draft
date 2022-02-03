@@ -1,0 +1,66 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+venv
+run.log*
+.env
+*.db
+*.sqlite
+
+# Editors directories
+.history
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sublime-*
+*.vscode/*
+
+# System files
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+*.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Trash-*

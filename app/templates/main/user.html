@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <table>
+        <tr valign="top">
+            <td>User:</td>
+            <td>{{ user.name }}</td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td> {{ user.email }}</td>
+        </tr>
+    </table>
+    {% if user == current_user %}
+    <p><a href="{{ url_for('main.user_edit', name=current_user.name) }}">Edit your profile</a></p>
+    {% endif %}
+{% endblock %}
