@@ -4,6 +4,7 @@ This is an Flask application draft for study purpose. This draft is based on the
 
 ## Todo
 
+-   [ ] How to use instructions
 -   [ ] Add a cli command to generate secret key
 
 ## License
